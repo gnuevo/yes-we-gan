@@ -3,105 +3,105 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/posts/theme-demo/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/posts/theme-demo/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/creating-a-new-theme/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/hugo-template-primer/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/posts/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/hugoisforlovers/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/migrate-from-jekyll/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/about/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/about/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/development/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/development/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/exercises/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/exercises/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/go/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/golang/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/golang/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/hugo/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/posts/</loc>
     <lastmod>2017-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/templates/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/themes/</loc>
+    <loc>https://gnuevo.github.io/yes-we-gan/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
