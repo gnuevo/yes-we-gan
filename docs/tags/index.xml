@@ -1,67 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Machine Learning Tokyo - Workshop on GANs</title>
+    <title>Tags on Workshop on GANs</title>
     <link>https://gnuevo.github.io/yes-we-gan/tags/</link>
-    <description>Recent content in Tags on Machine Learning Tokyo - Workshop on GANs</description>
+    <description>Recent content in Tags on Workshop on GANs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 21:56:55 +0100</lastBuildDate>
     
 	<atom:link href="https://gnuevo.github.io/yes-we-gan/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>https://gnuevo.github.io/yes-we-gan/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Example</title>
+      <link>https://gnuevo.github.io/yes-we-gan/tags/example/</link>
+      <pubDate>Thu, 02 Mar 2017 21:56:55 +0100</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/tags/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://gnuevo.github.io/yes-we-gan/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gnuevo.github.io/yes-we-gan/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://gnuevo.github.io/yes-we-gan/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gnuevo.github.io/yes-we-gan/tags/golang/</guid>
+      <guid>https://gnuevo.github.io/yes-we-gan/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
       <link>https://gnuevo.github.io/yes-we-gan/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 02 Apr 2017 22:01:15 +0100</pubDate>
       
       <guid>https://gnuevo.github.io/yes-we-gan/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Templates</title>
-      <link>https://gnuevo.github.io/yes-we-gan/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Markdown</title>
+      <link>https://gnuevo.github.io/yes-we-gan/tags/markdown/</link>
+      <pubDate>Thu, 02 Mar 2017 21:56:55 +0100</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/tags/templates/</guid>
+      <guid>https://gnuevo.github.io/yes-we-gan/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Themes</title>
-      <link>https://gnuevo.github.io/yes-we-gan/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Prototype</title>
+      <link>https://gnuevo.github.io/yes-we-gan/tags/prototype/</link>
+      <pubDate>Sun, 02 Apr 2017 22:01:15 +0100</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/tags/themes/</guid>
+      <guid>https://gnuevo.github.io/yes-we-gan/tags/prototype/</guid>
       <description></description>
     </item>
     

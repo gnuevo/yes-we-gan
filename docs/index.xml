@@ -1,98 +1,116 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning Tokyo - Workshop on GANs</title>
+    <title>Workshop on GANs</title>
     <link>https://gnuevo.github.io/yes-we-gan/</link>
-    <description>Recent content on Machine Learning Tokyo - Workshop on GANs</description>
+    <description>Recent content on Workshop on GANs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jun 2018 21:53:24 +0900</lastBuildDate>
     
 	<atom:link href="https://gnuevo.github.io/yes-we-gan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Theme Demo</title>
-      <link>https://gnuevo.github.io/yes-we-gan/posts/theme-demo/</link>
-      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Introduction to GANs</title>
+      <link>https://gnuevo.github.io/yes-we-gan/docs/intro-to-gans/</link>
+      <pubDate>Mon, 11 Jun 2018 21:53:24 +0900</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/posts/theme-demo/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+      <guid>https://gnuevo.github.io/yes-we-gan/docs/intro-to-gans/</guid>
+      <description>Warning, this page is a work in progress.
+It only contains the same materials provided during the workshop.
+We&#39;re planning on extending it as soon as we can.  Exercises in the workshop This are the exercises provided for the Workshop on GANs
+Implementation of a GAN:
+ Simple Gaussian MNIST GAN  Showcase, other experiments:
+ Multi-dataset GAN  We hope you have a good experience. Good luck.</description>
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://gnuevo.github.io/yes-we-gan/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Welcome to Kube</title>
+      <link>https://gnuevo.github.io/yes-we-gan/blog/welcome/</link>
+      <pubDate>Thu, 02 Mar 2017 21:56:55 +0100</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://gnuevo.github.io/yes-we-gan/blog/welcome/</guid>
+      <description>Welcome to Kube – an open source documentation like theme for Hugo Hi there and welcome to kube - my two theme for the static site generator hugo. kube is open source and can be found on kube. This article is just a demo post and shows you the style of common used elements.
+Bear claw danish chocolate lollipop soufflé jelly. Apple pie chocolate cake jelly-o icing bonbon. Gingerbread pastry fruitcake muffin chocolate bar cheesecake.</description>
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://gnuevo.github.io/yes-we-gan/posts/hugo-template-primer/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gnuevo.github.io/yes-we-gan/posts/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://gnuevo.github.io/yes-we-gan/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gnuevo.github.io/yes-we-gan/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://gnuevo.github.io/yes-we-gan/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gnuevo.github.io/yes-we-gan/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://gnuevo.github.io/yes-we-gan/about/</link>
+      <title>Typography with kube</title>
+      <link>https://gnuevo.github.io/yes-we-gan/blog/typography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
+      <guid>https://gnuevo.github.io/yes-we-gan/blog/typography/</guid>
+      <description>Get Started Typography of Kube based on the 4px horizontal grid, it means that for the headers, paragraphs, quotes and any other texts chosen are a combination of line-height, that fit into the 4px grid and help set the horizontal rhythm of design by default.
+  4px grid for typography - the magic of the horizontal rhythm   With this feature, you can quickly and easily make a solid and harmonious-looking website and UI design.</description>
     </item>
     
     <item>
-      <title>Exercises</title>
-      <link>https://gnuevo.github.io/yes-we-gan/exercises/</link>
+      <title>Prototyping with markdown</title>
+      <link>https://gnuevo.github.io/yes-we-gan/blog/prototyping/</link>
+      <pubDate>Sun, 02 Apr 2017 22:01:15 +0100</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/blog/prototyping/</guid>
+      <description>I have been working on a large set of documentation for a prototype that will eventually make it into a product. One issue with the publishing system at my company is that it makes doing prototypes, or really anything not within the rigidly and narrowly scoped model, difficult to set up. It takes a lot of work just to get to the point where you can begin writing.
+Since time was of the essence and writing is expensive, I decided to do the prototype outside of the publishing system.</description>
+    </item>
+    
+    <item>
+      <title>Messages</title>
+      <link>https://gnuevo.github.io/yes-we-gan/blog/messages/</link>
+      <pubDate>Mon, 10 Apr 2017 16:41:34 +0100</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/blog/messages/</guid>
+      <description>Usage You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;  You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message error&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;  You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message success&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;  Warning!You have 2 modules waiting to installation. Install   &amp;lt;div class=&amp;ldquo;message warning&amp;rdquo; data-component=&amp;ldquo;message&amp;rdquo;&amp;gt; &amp;lt;h5&amp;gt;&amp;hellip;&amp;lt;/h5&amp;gt; &amp;hellip; &amp;lt;span class=&amp;ldquo;close small&amp;rdquo;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt;   You have 2 modules waiting to installation.</description>
+    </item>
+    
+    <item>
+      <title>Collapse</title>
+      <link>https://gnuevo.github.io/yes-we-gan/blog/collapse/</link>
+      <pubDate>Mon, 10 Apr 2017 16:42:50 +0100</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/blog/collapse/</guid>
+      <description>Base Item 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Inline 🐣Text Styles</title>
+      <link>https://gnuevo.github.io/yes-we-gan/blog/inline-style/</link>
+      <pubDate>Sun, 02 Apr 2017 21:56:55 +0100</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/blog/inline-style/</guid>
+      <description>Chocolate tiramisu pastry a link cotton candy sesame snaps. Dessert cake chocolate bar a bold part sugar plum bonbon marshmallow lollipop toffee soufflé. Donut caramels chocolate bar. Oat cake cookie a marked part cheesecake donut. Jelly-o  $code marzipan cake. Bonbon sesame snaps chocolate an italic part oat cake pudding sweet roll caramels bonbon. Soufflé muffin 👻 gummies sugar plum dessert bonbon bear claw. Sweet ice cream jujubes. Marzipan sugar plum pastry chocolate ⌘+A bar fruitcake.</description>
+    </item>
+    
+    <item>
+      <title>Company</title>
+      <link>https://gnuevo.github.io/yes-we-gan/company/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gnuevo.github.io/yes-we-gan/exercises/</guid>
-      <description>This are the exercises provided for the Workshop on GANs
- Simple Gaussian MNIST GAN  We hope you have a good experience. Good luck.</description>
+      <guid>https://gnuevo.github.io/yes-we-gan/company/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Password Recovery</title>
+      <link>https://gnuevo.github.io/yes-we-gan/password-recovery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/password-recovery/</guid>
+      <description>Your email    Send Back to Log In
+ </description>
+    </item>
+    
+    <item>
+      <title>Sign In</title>
+      <link>https://gnuevo.github.io/yes-we-gan/account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/account/</guid>
+      <description>Email   Password   Log in
+Forgot password?
+If you have any questions about authorization or you&#39;re our customer but haven&#39;t receive your login credentials, just send us a short email at support@company.com and we&#39;ll fix it right away.
+ </description>
     </item>
     
   </channel>
