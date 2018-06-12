@@ -25,5 +25,19 @@ Implementation of a GAN:
  Multi-dataset GAN  We hope you have a good experience. Good luck.</description>
     </item>
     
+    <item>
+      <title>Introduction to GANs</title>
+      <link>https://gnuevo.github.io/yes-we-gan/docs/placeholder/</link>
+      <pubDate>Mon, 11 Jun 2018 21:53:24 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/yes-we-gan/docs/placeholder/</guid>
+      <description>Warning, this page is a work in progress.
+It only contains the same materials provided during the workshop.
+We&#39;re planning on extending it as soon as we can.  Exercises in the workshop This are the exercises provided for the Workshop on GANs
+Implementation of a GAN:
+ Simple Gaussian MNIST GAN  Showcase, other experiments:
+ Multi-dataset GAN  We hope you have a good experience. Good luck.</description>
+    </item>
+    
   </channel>
 </rss>
