@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-  <meta name="generator" content="Hugo 0.42" />
+  <meta name="generator" content="Hugo 0.42.1" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
 
   
 
-  <meta name="author" content="map[github_name:gnuevo github_url:https://github.com/gnuevo link:&lt;span class=&#39;octicon octicon-octoface&#39;&gt;&lt;/span&gt; &lt;a href=&#39;https://github.com/gnuevo&#39;&gt;gnuevo&lt;/a&gt; display_name:Gregorio Nuevo Castro]">
+  <meta name="author" content="map[display_name:Gregorio Nuevo Castro github_name:gnuevo github_url:https://github.com/gnuevo link:&lt;span class=&#39;octicon octicon-octoface&#39;&gt;&lt;/span&gt; &lt;a href=&#39;https://github.com/gnuevo&#39;&gt;gnuevo&lt;/a&gt;]">
 
 
   <meta property="og:title" content="Introduction to GANs" />
@@ -132,28 +132,113 @@
 
 <div class="message warning" data-component="message"> <span class="close small"></span>
     Warning, this page is a work in progress.<br>
-    It only contains the same materials provided during the workshop.<br>
-    We're planning on extending it as soon as we can.
 </div>
 
-<h2 id="exercises-in-the-workshop">Exercises in the workshop</h2>
+<h2 id="introduction-to-gans">Introduction to GANs</h2>
 
-<p>This are the exercises provided for the Workshop on GANs</p>
+<div class="message" data-component="message">
+    This is a brief explanation of the Gaussian GAN example done during the workshop.<br>
+    If you want to jump stright to the code you can find it here<br>
+    <h4><a href="https://drive.google.com/file/d/1iZ2BI0VPut9DIRL-geDpUqGBLytB4XzQ/view?usp=sharing">take me to the code</a></h4>
+</div>
 
-<p>Implementation of a GAN:</p>
+<p>GANs are a type of generative models. That means that they try to learn the
+probability distribution of a dataset so they can can create new instances that
+look like the ones in the dataset.
+They are formed by two neural networks that work together to learn the distribution
+of the data:</p>
 
 <ul>
-<li><a href="https://drive.google.com/file/d/1iZ2BI0VPut9DIRL-geDpUqGBLytB4XzQ/view?usp=sharing">Simple Gaussian</a></li>
-<li><a href="https://drive.google.com/file/d/1vYSlDj2vGADp7-3nmgl3TZ-nxgri9apt/view?usp=sharing">MNIST GAN</a></li>
+<li>Discriminator, and</li>
+<li>Generator</li>
 </ul>
 
-<p>Showcase, other experiments:</p>
+<p>The <em>Generator</em> tries to generate fake samples that are indistinguishable from
+real samples.
+Suppose we want to create novel pictures of cats (for some extrange reason we arrived at
+the conclusion that there is a shortage of cat pictures on the Internet, so
+we want to create a GAN that can generate new pictures of cats).
+In this case our <em>Generator</em> will try to create fake pictures of cats that are
+indistinguishable from pictures of real cats.
+On the other hand, the <em>Discriminator</em> will learn to distinguish between real
+images of cats (coming from the dataset) and fake images of cats (created by the
+<em>Generator</em>).</p>
+
+<p>At the beginning, the <em>Generator</em> doesn&rsquo;t know anything about how to generate
+images of cats so it basically outputs noise.
+At every iteration, the <em>Discriminator</em> learns to distinguish what is real and
+what is fake, and it tells the <em>Generator</em> what it&rsquo;s doing wrong.
+You can think of it as the <em>Discriminator</em> saying things like <em>I cought you
+because you draw a cat with only one ear</em> or <em>the eyes of the cat should be
+arranged horizontally, not vertically</em>.
+Of course, this is just an explanation, reality involves communication through
+backpropagation of gradients.</p>
+
+<p>I think we can get a better idea if we see an example.</p>
+
+<h2 id="gaussian-gan">Gaussian GAN</h2>
+
+<div class="message success" data-component="message"> <span class="close small"></span>
+    This is the same example that we did in the workshop.
+</div>
+
+<p>Let&rsquo;s build a GAN to approximate a Gaussian distribution.
+You&rsquo;re probably familiar with how a Gaussian distribution looks like.
+They are very common, and they look like the following image</p>
+
+<figure>
+    <div class="row align-center">
+    <img class="col col-9" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/1080px-Normal_Distribution_PDF.svg.png">
+    </div>
+    <figcaption>Source https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/1080px-Normal_Distribution_PDF.svg.png</figcaption>
+</figure>
+
+<p>To implement the GAN we need four elements:</p>
 
 <ul>
-<li><a href="https://tinyurl.com/ybrp92px">Multi-dataset GAN</a></li>
+<li>A <strong>target distribution</strong>, in this case a Gaussian distribution with a given
+<code>mean</code> and <code>std</code>.</li>
+<li>A <strong>noise sampler</strong>, this is going to be the input to our <em>Generator</em>.
+It learns to convert random noise into meaningful samples.</li>
+<li>Our <strong>Discriminator</strong>, and</li>
+<li>Our <strong>Generator</strong>.</li>
 </ul>
 
-<p>We hope you have a good experience. Good luck.</p>
+<p>Our idea in this tutorial is to input Uniform noise to the <em>Generator</em> and get
+samples from a Gaussian distribution at the output.
+Something like what is shown in the picture.</p>
+
+<figure>
+    <div class="row gutters">
+    <img class="col col-6" src="/yes-we-gan/img/uniform.png">
+    <img class="col col-6" src="/yes-we-gan/img/gaussian.png">
+    <figcaption>We want to take Uniform noise (red, left) and convert it into
+    samples from a Gaussian distribution (blue, right).</figcaption>
+    </div>
+</figure>
+
+<p>At the end of the training you shoudl see something like the picture</p>
+
+<figure>
+    <div class="row align-center">
+    <img class="col col-7" src="/yes-we-gan/img/gaussian_gan_trained.png">
+    </div>
+    <figcaption>Trained GAN</figcaption>
+</figure>
+
+<p>The green plot represents the training that (i.e. the Gaussian that we want to
+    approximate).
+The blue plot is what our <em>Generator</em> does.
+For the correct parameters and enough training, it can get a fair representation
+of the target distribution.</p>
+
+<p>Anyway, it&rsquo;s better if you check the code and go through it yourself.
+It&rsquo;s very simple and it&rsquo;s totally guided so you won&rsquo;t have problems.
+<a href="https://drive.google.com/file/d/1iZ2BI0VPut9DIRL-geDpUqGBLytB4XzQ/view?usp=sharing">Simple Gaussian GAN code</a></p>
+
+<hr>
+
+<p><br><br><br><br><br><br><br><br><br></p>
 
 
     
