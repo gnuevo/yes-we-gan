@@ -17,11 +17,12 @@
       <pubDate>Mon, 11 Jun 2018 21:53:24 +0900</pubDate>
       
       <guid>https://gnuevo.github.io/yes-we-gan/docs/placeholder/</guid>
-      <description>You&#39;re in the workshop right now! Enjoy! Learn!  Exercises in the workshop This are the exercises provided for the Workshop on GANs
+      <description>You&#39;re in the workshop right now! Enjoy! Learn!  GANs 1: Exercises in the workshop These are the exercises provided for the Workshop on GANs
 Implementation of a GAN:
  Simple Gaussian MNIST GAN  Dimitri&amp;rsquo;s serious stuff:
  Exercises Experiments  Showcase, other experiments:
- Multi-dataset GAN  We hope you have a good experience. Good luck.</description>
+ Multi-dataset GAN  We hope you have a good experience. Good luck.
+GANs 2: Exercise notebooks These are the notebooks we will use during the second workshop on GANs.</description>
     </item>
     
     <item>
